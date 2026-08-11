@@ -1,0 +1,166 @@
+:root {
+    --primary-color: #000666;
+    --secondary-color: #ffffff;
+    --partition-color: #93b0c9;
+    --partition-padding: 6rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    padding: 0 25px;
+    gap: 15px;
+    border-bottom: 1px solid var(--partition-color);
+}
+
+header span {
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+header h1 {
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+.contactButton {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    justify-self: flex-end;
+    border: none;
+}
+
+.introduction {
+    display: flex;
+    background-color: #fafafa;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--partition-padding) 30px;
+}
+
+.introduction h2 {
+    color: var(--primary-color);
+    justify-self: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.introduction p {
+    color: #3f3f3f;
+    font-size: 20px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.introductionButtons {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.startNowButton {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+    justify-self: flex-end;
+    border: none;
+    font-size: 0.8rem;
+}
+
+.learnMoreButton {
+    background-color: var(--secondary-color);
+    color: #2B5BB5;
+    padding: 15px 35px;
+    border-radius: 5px;
+    justify-self: flex-end;
+    border: 1px solid #2B5BB5;
+    font-size: 0.8rem;
+}
+
+.aboutUs {
+    display: flex;
+    background-color: #f7f7f7;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--partition-padding) 30px;
+}
+
+.aboutUs h2 {
+    color: var(--primary-color);
+    justify-self: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.aboutUs p {
+    color: #3f3f3f;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.ourServices {
+    display: flex;
+    background-color: #fafafa;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--partition-padding) 30px;
+}
+
+.ourServices h2 {
+    color: var(--primary-color);
+    justify-self: center;
+    font-size: 35px;
+}
+
+.ourServices > p {
+    color: #3f3f3f;
+    font-size: 20px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.atributes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.atribute {
+    display: flex;
+    background-color: var(--secondary-color);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px;
+    border: 1px solid #C6C5D4; 
+    border-radius: 8px;
+}
+
+.atribute span {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.atribute h3 {
+    font-size: 24px;
+    color: #1A1C1C;
+    padding-bottom: 10px;
+}
