@@ -10,41 +10,60 @@
 
 <body>
     <header>
-        <span class="material-symbols-outlined">menu</span>
+        <div class="menuMobile">
+            <span class="material-symbols-outlined">menu</span>
+        </div>
         <h1>Corporate</h1>
+        <div class="headerLinks">
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Services</p>
+        </div>
         <button class="contactButton">Contact</button>
     </header>
     <main>
         <section class="introduction">
-            <h2>Clareza Institucional. Excelência Corporativa</h2>
-            <p>
-                Fornecemos estabilidade profissional e
-                confiança inabalável para nossos
-                parceiros e clientes em todo o mundo.
-                Descubra uma nova era de gestão
-                estratégica. 
-            </p>
-            <div class="introductionButtons">
-                <button class="startNowButton">
-                    Inicie Agora
-                </button>
-                <button class="learnMoreButton">
-                    Saiba Mais
-                </button>
+            <div class="introductionTexts"> 
+                <h2>Clareza Institucional. Excelência Corporativa</h2>
+                <p>
+                    Fornecemos estabilidade profissional e
+                    confiança inabalável para nossos
+                    parceiros e clientes em todo o mundo.
+                    Descubra uma nova era de gestão
+                    estratégica. 
+                </p>
+                <div class="introductionButtons">
+                    <button class="startNowButton">
+                        Inicie Agora
+                    </button>
+                    <button class="learnMoreButton">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+            <div class="introductionImageDesktop">
+                <img src="images/imagemAmbienteEmpresarial.png" alt="Ambiente empresarial">
             </div>
         </section>
         <section class="aboutUs">
-            <h2>Sobre Nós</h2>
-            <p>
-                Com décadas de experiência no mercado
-                corporativo, estabelecemos um padrão de
-                excelência baseado em transparência,
-                eficiência e inovação controlada. Nossa
-                missão é simplificar a complexidade para que
-                você possa focar no que realmente importa: o
-                crescimento sustentável da sua organização.
-            </p>
-            <img src="" alt="">
+            <div class="aboutUsTexts">
+                <h2>Sobre Nós</h2>
+                <p>
+                    Com décadas de experiência no mercado
+                    corporativo, estabelecemos um padrão de
+                    excelência baseado em transparência,
+                    eficiência e inovação controlada. Nossa
+                    missão é simplificar a complexidade para que
+                    você possa focar no que realmente importa: o
+                    crescimento sustentável da sua organização.
+                </p>
+            </div>
+            <div class="aboutUsMobileImage">
+                <img src="images/Ambiente corporativo moderno.png" alt="Imagem ambiente corporativo">
+            </div>
+            <div class="aboutUsDesktopImage">
+                <img src="images/imagemReuniao.png" alt="Reunião de funcionários">
+            </div>
         </section>
         <section class="ourServices">
             <h2>Nossos Serviços</h2>
@@ -88,22 +107,34 @@
         </section>
         <section class="contactUs">
             <div class="contactUsForm">
-                <h3>Entre em Contato</h3>
-                <p>Agende uma consulta com nossos especialistas.</p>
-                <div class="nameInput">
-                    <p>Nome Completo</p>
-                    <input type="text">
+                <div class="formTitle">
+                    <h3>Entre em Contato</h3>
+                    <p>Agende uma consulta com nossos especialistas.</p>
+                    <div class="addressAndNumber">
+                        <p>
+                            <span class="material-symbols-outlined">location_on</span>Av. Paulista, 1000 - São Paulo, SP
+                        </p>
+                        <p>
+                            <span class="material-symbols-outlined">call</span>+55 (11) 3000-0000
+                        </p>
+                    </div>
                 </div>
-                <div class="emailInput">
-                    <p>Email Profissional</p>
-                    <input type="email">
-                </div>
-                <div class="messageInput">
-                    <p>Mensagem</p>
-                    <input type="text">
-                </div>
-                <div class="submitButton">
-                    <button type="submit">Enviar Solicitação</button>
+                <div class="formInputs">
+                    <div class="nameInput">
+                        <p>Nome Completo</p>
+                        <input type="text">
+                    </div>
+                    <div class="emailInput">
+                        <p>Email Profissional</p>
+                        <input type="email">
+                    </div>
+                    <div class="messageInput">
+                        <p>Mensagem</p>
+                        <input type="text">
+                    </div>
+                    <div class="submitButton">
+                        <button type="submit">Enviar Solicitação</button>
+                    </div>
                 </div>
             </div>
         </section>
