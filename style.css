@@ -50,7 +50,7 @@ header h1 {
     color: #454652;
 }
 
-.headerLinks p::after{
+.headerLinks p::after {
     display: block;
     content: '';
     margin-top: 2px;
@@ -166,7 +166,7 @@ header h1 {
     display: block;
     margin-top: 24px;
     width: 100%;
-    border-radius: 8px; 
+    border-radius: 8px;
     border: 1px solid #C6C5D4;
 }
 
@@ -174,7 +174,7 @@ header h1 {
     display: block;
     margin-top: 24px;
     width: 100%;
-    border-radius: 8px; 
+    border-radius: 8px;
     border: 1px solid #C6C5D4;
 }
 
@@ -193,7 +193,7 @@ header h1 {
     font-size: 32px;
 }
 
-.ourServices > p {
+.ourServices>p {
     color: #3f3f3f;
     font-size: 20px;
     margin-top: 1rem;
@@ -214,7 +214,7 @@ header h1 {
     flex-direction: column;
     align-items: flex-start;
     padding: 24px 24px;
-    border: 1px solid #C6C5D4; 
+    border: 1px solid #C6C5D4;
     border-radius: 8px;
 }
 
@@ -246,7 +246,7 @@ header h1 {
     flex-direction: column;
     background-color: white;
     padding: 32px;
-    border: 1px solid #C6C5D4; 
+    border: 1px solid #C6C5D4;
     border-radius: 8px;
     gap: 32px;
 }
@@ -292,7 +292,7 @@ header h1 {
     height: 42px;
     width: 100%;
     background-color: white;
-    border: 1px solid #C6C5D4; 
+    border: 1px solid #C6C5D4;
     border-radius: 4px;
 }
 
@@ -307,7 +307,7 @@ header h1 {
     height: 42px;
     width: 100%;
     background-color: white;
-    border: 1px solid #C6C5D4; 
+    border: 1px solid #C6C5D4;
     border-radius: 4px;
 }
 
@@ -322,11 +322,11 @@ header h1 {
     height: 114px;
     width: 100%;
     background-color: white;
-    border: 1px solid #C6C5D4; 
+    border: 1px solid #C6C5D4;
     border-radius: 4px;
 }
 
-.submitButton{
+.submitButton {
     align-self: center;
     width: 100%;
 }
@@ -356,7 +356,7 @@ footer {
     flex-direction: column;
 }
 
-.companyFooter h4{
+.companyFooter h4 {
     font-size: 14px;
     text-align: center;
     color: var(--primary-color);
@@ -394,7 +394,7 @@ footer {
     .contactButton {
         margin-left: 0;
     }
-    
+
     .menuMobile {
         display: none;
     }
@@ -506,12 +506,12 @@ footer {
         margin: 0px var(--margin-desktop);
         border: none;
     }
-    
+
     .contactUsForm {
         margin: 0px 144px;
         flex-direction: row;
     }
-    
+
     .formTitle {
         flex: 1;
         gap: 16px;
@@ -524,7 +524,7 @@ footer {
     .formTitle p {
         text-align: left;
     }
-    
+
     .addressAndNumber {
         display: flex;
         flex-direction: column;
@@ -550,7 +550,7 @@ footer {
 
     .formInputs p {
         font-weight: bold;
-    }   
+    }
 
     footer {
         flex-direction: row;
@@ -564,11 +564,11 @@ footer {
         gap: 8px;
     }
 
-    .companyFooter h4{
+    .companyFooter h4 {
         text-align: left;
     }
 
-    .companyFooter p{
+    .companyFooter p {
         text-align: left;
     }
 
